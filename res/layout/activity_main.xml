@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Theme 1" android:id="@+id/theme1" />
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Theme 2" android:id="@+id/theme2" />
+
+</LinearLayout>
